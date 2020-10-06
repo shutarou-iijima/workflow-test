@@ -1,0 +1,10 @@
+name: Hello2
+on: push
+
+jobs:
+  hello2:
+    name: hello2
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello2
+        run: echo hello world second!!
