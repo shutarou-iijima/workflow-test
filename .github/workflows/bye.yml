@@ -1,0 +1,10 @@
+name: Bye
+on: push
+
+jobs:
+  bye:
+    name: bye
+    runs-on: ubuntu-latest
+    steps:
+      - name: bye
+        run: echo Good bye!!
